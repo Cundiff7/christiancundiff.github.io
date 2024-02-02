@@ -2335,7 +2335,8 @@ input, select, textarea {
 					background: #f7f7f7 url("images/bg02.png");
 				}
 				#beanboy p {
-					text-align: center;
+					align: center;
+					position: center;
 				}
 /* Footer */
 
