@@ -2311,7 +2311,29 @@ input, select, textarea {
 				#jiujitsu .major h2 {
 					background: #f7f7f7 url("images/bg02.png");
 				}
+		/* BeanBoy */
 
+			#beanboy {
+				position: relative;
+				background: #000000 url("../../images/bean.png");
+				padding: 4em 0 4em 0;
+			}
+
+				#beanboy:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					background: url("images/bg01.png");
+					background-size: 100% 100%;
+					z-index: 0;
+					opacity: 0.1;
+				}
+
+				#beanboy .major h2 {
+					background: #f7f7f7 url("images/bg02.png");
+				}
 /* Footer */
 
 	#footer {
